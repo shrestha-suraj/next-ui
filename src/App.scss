@@ -1,0 +1,15 @@
+.App {
+  width:100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+
+
+  .pages{
+    min-height: 100vh;
+    background-color: red;
+    font-display: flex;
+    flex:1;
+  }
+
+}
