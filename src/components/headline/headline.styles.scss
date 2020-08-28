@@ -1,0 +1,65 @@
+.headline{
+    width: 100%;
+    height: 50px;
+    background:white;
+    border:2px solid #dadada;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .headline-text{
+        margin:0 20px;
+        font-size:30px;
+        color:#b3b3b3;
+    }
+
+    .headline-profile{
+        width: fit-content;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin:0 20px;
+
+        .mail-notification,.bell-notification{
+            
+            width:30px;
+            height:30px;
+            position: relative;
+            margin:0 10px;
+            display: flex;
+            align-items: center;
+            
+            .notification-number{
+                position: absolute;
+                top:0;
+                right:0;
+                min-width:15px;
+                height:15px;
+                background-color:red;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                span{
+                    font-size:0.6rem;
+                    color:white;
+                    font-weight: bold;
+                }
+
+
+            }
+
+            svg{
+                width:20px;
+                height:20px;
+                fill:#92a9b4;
+            }
+        }
+        
+
+
+    }
+
+}
+
+
