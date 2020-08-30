@@ -1,0 +1,27 @@
+.in-page-navigation {
+  display: block;
+  margin: 0 20px;
+
+  .in-page-list {
+    display: flex;
+    padding: 10px 0px;
+
+    .in-page-list-link {
+        display: flex;
+        flex-direction: column;
+        background:red;
+        width: fit-content;
+
+      .in-page-list-item {
+        margin: 0 20px 0 0;
+        &::after{
+            content: "";
+            width:20px;
+            height: 20px;
+            background-color:green;
+
+        }
+      }
+    }
+  }
+}

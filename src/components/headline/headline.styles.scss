@@ -19,6 +19,19 @@
         display: flex;
         align-items: center;
         margin:0 20px;
+        cursor: pointer;
+
+        .userName{
+            margin:0 10px;
+        }
+
+        .drop-down-icon{
+            width: 15px;
+            height: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
         .mail-notification,.bell-notification{
             
@@ -49,13 +62,12 @@
 
             }
 
-            svg{
-                width:20px;
-                height:20px;
-                fill:#92a9b4;
-            }
         }
-        
+        svg{
+            width:20px;
+            height:20px;
+            fill:#92a9b4;
+        }        
 
 
     }
